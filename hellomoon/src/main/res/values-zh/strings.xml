@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HelloMoon</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="hellomoon_play">播放</string>
+    <string name="hellomoon_stop">停止</string>
+    <string name="hellomoon_description">一小步</string>
+</resources>

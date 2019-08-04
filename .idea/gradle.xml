@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/criminalintent" />
+            <option value="$PROJECT_DIR$/custom" />
+            <option value="$PROJECT_DIR$/fortest" />
+            <option value="$PROJECT_DIR$/group" />
+            <option value="$PROJECT_DIR$/hellomoon" />
+            <option value="$PROJECT_DIR$/helloworld" />
+            <option value="$PROJECT_DIR$/junior" />
+            <option value="$PROJECT_DIR$/middle" />
+            <option value="$PROJECT_DIR$/photogallery" />
+            <option value="$PROJECT_DIR$/qeoquiz" />
+            <option value="$PROJECT_DIR$/questions" />
+            <option value="$PROJECT_DIR$/remotecontrol" />
+            <option value="$PROJECT_DIR$/senior" />
+            <option value="$PROJECT_DIR$/storage" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

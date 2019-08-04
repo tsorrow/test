@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tsorrow.junior.custom">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CustomPropertyActivity" />
+        <activity android:name=".MeasureTextActivity" />
+        <activity android:name=".MeasureLayoutActivity" />
+        <activity android:name=".OnLayoutActivity" />
+        <activity android:name=".OnDrawActivity" />
+        <activity android:name=".DispatchDrawActivity" />
+        <activity android:name=".RunnableActivity" />
+        <activity android:name=".PullRefreshActivity" />
+        <activity android:name=".CircleAnimationActivity" />
+        <activity android:name=".WindowActivity" />
+        <activity android:name=".DialogDateActivity" />
+        <activity android:name=".DialogMultiActivity" />
+        <activity android:name=".NotifySimpleActivity" />
+        <activity android:name=".NotifyCounterActivity" />
+        <activity android:name=".NotifyProgressActivity" />
+        <activity android:name=".NotifyCustomActivity" />
+        <activity android:name=".ServiceNormalActivity" />
+        <activity android:name=".BindImmediateActivity" />
+        <activity android:name=".BindDelayActivity" />
+        <activity android:name=".NotifyServiceActivity" />
+        <activity android:name=".AppInfoActivity" />
+        <activity android:name=".TrafficInfoActivity" />
+        <activity android:name=".MobileAssistantActivity"></activity>
+    </application>
+
+</manifest>

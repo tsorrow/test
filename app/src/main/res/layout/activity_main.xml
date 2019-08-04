@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/chainway_bluetooth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="蓝牙连接测试"
+        android:textSize="17sp"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/chainway_barcode_key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="键盘助手二维码扫描"
+        android:textSize="17sp"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/chainway_barcode_api"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="api二维码扫描"
+        android:textSize="17sp"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/chainway_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取系统日期"
+        android:textSize="17sp"
+        android:textColor="#000000"/>
+
+</LinearLayout>
