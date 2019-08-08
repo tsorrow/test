@@ -9,7 +9,7 @@
     tools:context=".NotifySimpleActivity">
 
     <EditText
-        android:id="@+id/dt_title"
+        android:id="@+id/et_title"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_margin="5dp"
@@ -28,5 +28,12 @@
         android:textColor="@color/black"
         android:textSize="17sp"/>
 
-
+    <Button
+        android:id="@+id/btn_send_simple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="发送简单消息"
+        android:textColor="@color/black"
+        android:textSize="17sp"/>
 </LinearLayout>

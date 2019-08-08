@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">custom</string>
+
+    <string name="pause_event">com.tsorrow.junior.custom.service.pause</string>
 </resources>
