@@ -38,7 +38,24 @@
         <activity android:name=".NotifyServiceActivity" />
         <activity android:name=".AppInfoActivity" />
         <activity android:name=".TrafficInfoActivity" />
-        <activity android:name=".MobileAssistantActivity"></activity>
+        <activity android:name=".MobileAssistantActivity" />
+
+        <service
+            android:name=".service.MusicService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".service.NormalService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".service.BindImmediateService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".service.BindDelayService"
+            android:enabled="true"
+            android:exported="true"></service>
     </application>
 
 </manifest>
