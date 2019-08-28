@@ -84,7 +84,7 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:layout_alignParentLeft="true"
-            android:text="姓名："
+            android:text="身高："
             android:textColor="@color/black"
             android:textSize="17sp"/>
 
