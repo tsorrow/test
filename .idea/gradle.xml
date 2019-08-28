@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/criminalintent" />
             <option value="$PROJECT_DIR$/custom" />
+            <option value="$PROJECT_DIR$/device" />
             <option value="$PROJECT_DIR$/fortest" />
             <option value="$PROJECT_DIR$/group" />
             <option value="$PROJECT_DIR$/hellomoon" />
@@ -23,6 +24,7 @@
             <option value="$PROJECT_DIR$/remotecontrol" />
             <option value="$PROJECT_DIR$/senior" />
             <option value="$PROJECT_DIR$/storage" />
+            <option value="$PROJECT_DIR$/thirdsdk" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
