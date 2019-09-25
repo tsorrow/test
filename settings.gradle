@@ -1,1 +1,1 @@
-include ':app', ':qeoquiz', ':criminalintent', ':questions', ':hellomoon', ':remotecontrol', ':photogallery', ':helloworld', ':junior', ':middle', ':storage', ':senior', ':group', ':fortest', ':custom', ':thirdsdk', ':device'
+include ':app', ':qeoquiz', ':criminalintent', ':questions', ':hellomoon', ':remotecontrol', ':photogallery', ':helloworld', ':junior', ':middle', ':storage', ':senior', ':group', ':fortest', ':custom', ':thirdsdk', ':device', ':network'
