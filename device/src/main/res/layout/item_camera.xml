@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".CameraInfoActivity">
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -13,90 +10,94 @@
         android:orientation="horizontal">
 
         <TextView
+            android:id="@+id/tv_camera_type"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:gravity="center"
-            android:text="相机类型"
             android:textColor="@color/black"
-            android:textSize="17sp"/>
+            android:textSize="17sp" />
 
         <TextView
+            android:id="@+id/tv_flash_mode"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:gravity="center"
-            android:text="闪光模式"
             android:textColor="@color/black"
-            android:textSize="17sp"/>
+            android:textSize="17sp" />
 
         <TextView
+            android:id="@+id/tv_focus_mode"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:gravity="center"
-            android:text="对焦模式"
             android:textColor="@color/black"
-            android:textSize="17sp"/>
+            android:textSize="17sp" />
 
         <TextView
+            android:id="@+id/tv_scene_mode"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:gravity="center"
-            android:text="场景模式"
             android:textColor="@color/black"
-            android:textSize="17sp"/>
+            android:textSize="17sp" />
 
         <TextView
+            android:id="@+id/tv_color_effect"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:gravity="center"
-            android:text="颜色效果"
             android:textColor="@color/black"
-            android:textSize="17sp"/>
+            android:textSize="17sp" />
 
         <TextView
+            android:id="@+id/tv_white_balance"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:gravity="center"
-            android:text="白平衡"
             android:textColor="@color/black"
-            android:textSize="17sp"/>
+            android:textSize="17sp" />
 
         <TextView
+            android:id="@+id/tv_max_zoom"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:gravity="center"
-            android:text="最大缩放"
             android:textColor="@color/black"
-            android:textSize="17sp"/>
+            android:textSize="17sp" />
 
         <TextView
+            android:id="@+id/tv_zoom"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:gravity="center"
-            android:text="当前缩放"
             android:textColor="@color/black"
-            android:textSize="17sp"/>
+            android:textSize="17sp" />
 
         <TextView
+            android:id="@+id/tv_resolution"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:gravity="center"
-            android:text="分辨率"
+            android:text="展开"
             android:textColor="@color/black"
-            android:textSize="17sp"/>
+            android:textSize="17sp" />
     </LinearLayout>
 
-    <ListView
-        android:id="@+id/lv_camera"
+    <TextView
+        android:id="@+id/tv_resolution_list"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"/>
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:visibility="gone" />
 </LinearLayout>
