@@ -39,4 +39,12 @@
         android:textSize="17sp"
         android:textColor="#000000"/>
 
+    <Button
+        android:id="@+id/chainway_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="创建文件夹电脑可见"
+        android:textSize="17sp"
+        android:textColor="#000000"/>
+
 </LinearLayout>

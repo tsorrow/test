@@ -54,5 +54,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        mBarcode_api = (Button) findViewById(R.id.chainway_view);
+        mBarcode_api.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ViewActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
