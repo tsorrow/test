@@ -2,6 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.tsorrow.test.network">
 
+    <!--互联网-->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <!--查看网络状态-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -21,7 +27,11 @@
         <activity android:name=".ProgressTextActivity" />
         <activity android:name=".ProgressCircleActivity" />
         <activity android:name=".AsyncTaskActivity" />
-        <activity android:name=".IntentServiceActivity"></activity>
+        <activity android:name=".IntentServiceActivity" />
+        <activity android:name=".ConnectActivity" />
+        <activity android:name=".JsonActivity" />
+        <activity android:name=".HttpRequestActivity" />
+        <activity android:name=".HttpImageActivity"></activity>
     </application>
 
 </manifest>

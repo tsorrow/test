@@ -76,6 +76,53 @@
                     android:layout_height="wrap_content"
                     android:text="异步服务"/>
             </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="10.2 接口访问"
+                android:gravity="center"
+                android:layout_marginTop="20dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_connect"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="查看网络连接"/>
+
+                <Button
+                    android:id="@+id/btn_json"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="JSON串解析"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_http_request"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="HTTP接口调用"/>
+
+                <Button
+                    android:id="@+id/btn_http_image"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="HTTP图片获取"/>
+            </LinearLayout>
         </LinearLayout>
     </ScrollView>
 

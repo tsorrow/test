@@ -18,6 +18,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_progress_circle).setOnClickListener(this);
         findViewById(R.id.btn_async_task).setOnClickListener(this);
         findViewById(R.id.btn_intent_service).setOnClickListener(this);
+
+        findViewById(R.id.btn_connect).setOnClickListener(this);
+        findViewById(R.id.btn_json).setOnClickListener(this);
+        findViewById(R.id.btn_http_request).setOnClickListener(this);
+        findViewById(R.id.btn_http_image).setOnClickListener(this);
     }
 
     @Override
@@ -39,6 +44,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(intent);
         } else if (v.getId() == R.id.btn_intent_service){
             Intent intent = new Intent(MainActivity.this,IntentServiceActivity.class);
+            startActivity(intent);
+        } else if (v.getId() == R.id.btn_connect){
+            Intent intent = new Intent(MainActivity.this,ConnectActivity.class);
+            startActivity(intent);
+        } else if (v.getId() == R.id.btn_json){
+            Intent intent = new Intent(MainActivity.this,JsonActivity.class);
+            startActivity(intent);
+        } else if (v.getId() == R.id.btn_http_request){
+            Intent intent = new Intent(MainActivity.this,HttpRequestActivity.class);
+            startActivity(intent);
+        } else if (v.getId() == R.id.btn_http_image){
+            Intent intent = new Intent(MainActivity.this,HttpImageActivity.class);
             startActivity(intent);
         }
     }
